@@ -1,0 +1,34 @@
+Couiz - Jeu de Quizz - https://jklm.fun/
+
+Règles
+- 1mn30 pour répondre au max de questions possibles
+- Réponses à écrire dans une case de réponse
+- Validation automatique et passage à la next question si bonne réponse
+- Chaque question rapporte un certain nombre de points en fonction de sa difficulté/thématique
+- Enregistrement du classement à la fin de la partie avec demande du pseudo et sauvegarde 
+dans un fichier pour synchroniser les données à chaque lancement
+- Bonus de points : série de bonnes réponses
+- Questions possibles: culture G, musique, cinéma, histoire, TV, internet, pop culture, maths
+
+
+Structure
+- Héritage sur les types de questions (une classe abstraite Question, des sous-classes QuestionTV
+avec leur nombre de points, les différentes Q/R associées)
+- Classes QuestionCultureG, QuestionMusique, QuestionCinema, QuestionHistoire, QuestionTV, 
+QuestionInternet, QuestionPopCulture, QuestionMaths
+
+
+Algorithmes
+- Sélection aléatoire des questions
+- Calcul du score
+- Liste de questions
+- Gestion de la saisie et traitement des réponses (accents pas mis, variations dans les réponses...)
+- Gestion du classement
+- Implémenter un algorithme de Levenshtein pour la tolérance aux fautes de frappe?
+
+
+Interface utilisateur (en mode rétro)
+1. Thomas - 69 points
+2. Milovan - 20 points
+3. Richard - 3 points
+4. Richard - 0 points

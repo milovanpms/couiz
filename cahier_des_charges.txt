@@ -4,6 +4,7 @@ Règles
 - 1mn30 pour répondre au max de questions possibles
 - Réponses à écrire dans une case de réponse
 - Validation automatique et passage à la next question si bonne réponse
+- Sinon: passage de la question si on ne connait pas la réponse 
 - Chaque question rapporte un certain nombre de points en fonction de sa difficulté/thématique
 - Enregistrement du classement à la fin de la partie avec demande du pseudo et sauvegarde 
 dans un fichier pour synchroniser les données à chaque lancement
@@ -32,3 +33,4 @@ Interface utilisateur (en mode rétro)
 2. Milovan - 20 points
 3. Richard - 3 points
 4. Richard - 0 points
+

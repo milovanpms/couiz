@@ -1,0 +1,16 @@
+package fr.couiz;
+
+public enum Etat {
+    INIT,
+    ATTENDRE_START,
+    POSER_QUESTION,
+    DEMANDE_PSEUDO,
+    ATTENDRE_REPONSE,
+    PAUSE_MENU,
+    VERIFIER_REPONSE,
+    RETOUR_QUESTION,
+    FIN_PARTIE,
+    MENU_CLASSEMENT,
+    FIN
+}
+

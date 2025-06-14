@@ -1,0 +1,51 @@
+Type,Categorie,Enonce,Choix,BonneReponse,Image,Reponse
+QMC,CINEMA,"Qui a joué le rôle du Joker en 2008 ?","Heath Ledger;Joaquin Phoenix;Jared Leto",1,,
+QPR,HISTOIRE,"Quel roi a été guillotiné en 1793 ?",,,,,Louis XVI
+QMC,TV,"Quelle série met en scène la famille Stark ?","Breaking Bad;Game of Thrones;The Crown",2,,
+IMAGE,MATHS,"Quelle formule est représentée ?",,,,img/e_mc2.png,E=mc^2
+QPR,MUSIQUE,"Qui chante 'Imagine' ?",,,,,John Lennon
+QMC,CULTUREG,"Quel pays a remporté la Coupe du Monde 2018 ?","Allemagne;France;Brésil",2,,
+QMC,INTERNET,"Que signifie 'URL' ?","Universal Resource Locator;Uniform Resource Locator;Ultimate Resource Link",2,,
+IMAGE,CINEMA,"Quel film est représenté ?",,,,img/avatar.png,Avatar
+QPR,HISTOIRE,"Qui a dit 'Je pense donc je suis' ?",,,,,Descartes
+QMC,MATHS,"Quel est le résultat de 15 x 3 ?","45;35;40",1,,
+QMC,MUSIQUE,"Quel genre musical pour Mozart ?","Jazz;Classique;Rock",2,,
+IMAGE,CULTUREG,"Quelle œuvre est montrée ?",,,,img/mona_lisa.jpg,La Joconde
+QPR,TV,"Qui est le créateur des Simpsons ?",,,,,Matt Groening
+QMC,INTERNET,"Quel langage est utilisé pour le style web ?","HTML;CSS;JavaScript",2,,
+IMAGE,HISTOIRE,"Quel personnage est représenté ?",,,,img/napoleon.jpg,Napoléon Bonaparte
+QPR,MATHS,"Combien font √64 ?",,,,,8
+QMC,CINEMA,"Quel film commence avec 'Une galaxie lointaine...' ?","Star Trek;Star Wars;Interstellar",2,,
+QMC,TV,"Quel est le nom du scientifique dans 'Rick & Morty' ?","Rick;Morty;Jerry",1,,
+QPR,MUSIQUE,"Quel est le prénom de Beethoven ?",,,,,Ludwig
+IMAGE,MATHS,"Quel symbole est représenté ?",,,,img/integrale.png,Intégrale
+QMC,CULTUREG,"Quelle langue parle-t-on au Brésil ?","Espagnol;Portugais;Français",2,,
+QMC,HISTOIRE,"Quelle guerre s'est terminée en 1945 ?","Première Guerre mondiale;Guerre de Sécession;Seconde Guerre mondiale",3,,
+QPR,INTERNET,"Quel est le créateur de Facebook ?",,,,,Mark Zuckerberg
+QMC,MATHS,"Quel est le cube de 2 ?","4;6;8",3,,
+IMAGE,CINEMA,"Quel personnage est montré ?",,,,img/harry_potter.jpg,Harry Potter
+QPR,TV,"Quel est le nom complet de 'Mr. Bean' ?",,,,,Rowan Atkinson
+QMC,MUSIQUE,"Quel instrument a 6 cordes ?","Flûte;Violon;Guitare",3,,
+QMC,CULTUREG,"Dans quel pays se trouve le Taj Mahal ?","Inde;Pakistan;Sri Lanka",1,,
+IMAGE,HISTOIRE,"Quel objet est représenté ?",,,,img/bastille.jpg,La Bastille
+QPR,MATHS,"Combien de côtés a un octogone ?",,,,,8
+QMC,CINEMA,"Qui a réalisé 'Titanic' ?","Steven Spielberg;James Cameron;Peter Jackson",2,,
+QMC,TV,"Quelle série se passe à Hawkins ?","Stranger Things;Dark;The Witcher",1,,
+IMAGE,INTERNET,"Quel logo est affiché ?",,,,img/youtube.png,YouTube
+QPR,MUSIQUE,"Quel artiste est surnommé 'The King of Pop' ?",,,,,Michael Jackson
+QMC,CULTUREG,"Quelle est la capitale du Japon ?","Séoul;Pékin;Tokyo",3,,
+QMC,HISTOIRE,"Quel président américain a aboli l'esclavage ?","Lincoln;Roosevelt;Washington",1,,
+QPR,INTERNET,"Que signifie 'CPU' ?",,,,,Central Processing Unit
+IMAGE,MATHS,"Quel concept est représenté ?",,,,img/fraction.png,Fraction
+QMC,CINEMA,"Quel est le prénom de Tarantino ?","James;Quentin;Steven",2,,
+QPR,TV,"Qui est le créateur de 'Black Mirror' ?",,,,,Charlie Brooker
+QMC,MUSIQUE,"Quel groupe a chanté 'Hey Jude' ?","Queen;The Beatles;ABBA",2,,
+IMAGE,HISTOIRE,"Quel événement est représenté ?",,,,img/dday.jpg,Débarquement 1944
+QMC,CULTUREG,"Quel est le plus grand océan ?","Atlantique;Arctique;Pacifique",3,,
+QPR,MATHS,"Combien de degrés d'angle dans un triangle ?",,,,,180
+QMC,CINEMA,"Quel est le nom complet du personnage de 'Neo' ?","John Anderson;Thomas Anderson;Jake Anderson",2,,
+IMAGE,TV,"Quel personnage est affiché ?",,,,img/homer.png,Homer Simpson
+QMC,HISTOIRE,"Quel pays a construit la Grande Muraille ?","Japon;Chine;Mongolie",2,,
+QPR,MUSIQUE,"Qui a composé 'La Flûte enchantée' ?",,,,,Mozart
+QMC,CULTUREG,"Combien y a-t-il de continents ?","5;6;7",3,,
+QPR,INTERNET,"Quel navigateur a un logo en forme de boussole ?",,,,,Safari

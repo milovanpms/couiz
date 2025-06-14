@@ -1,40 +1,37 @@
 package fr.couiz.question;
 
 public abstract class Question {
-    String question;
-    String reponseCorrecte;
-    int points;
-    String categorie;
-    String[] reponsesAlternatives; // Pour les synonymes et variantes genre USA = US = Amérique
+    protected String enonce;
+    protected Type type;
+    protected CategorieQuestion categorie;
 
-    // Constructeur sans réponses alternatives
-    public Question(String question, String reponseCorrecte, int points, String categorie) {
-        this.question = question;
-        this.reponseCorrecte = reponseCorrecte;
-        this.points = points;
+    public Question(String enonce, Type type, CategorieQuestion categorie) {
+        this.enonce = enonce;
+        this.type = type;
         this.categorie = categorie;
-        this.reponsesAlternatives = new String[0];
     }
 
-    // Constructeur avec réponses alternatives
-    public Question(String question, String reponseCorrecte, int points, String categorie, String[] reponsesAlternatives) {
-        this.question = question;
-        this.reponseCorrecte = reponseCorrecte;
-        this.points = points;
-        this.categorie = categorie;
-        this.reponsesAlternatives = reponsesAlternatives;
+    public String getIntitule() {
+        return enonce;
     }
 
-    public int getPoints() {
-        return points;
+    public Type getType() {
+        return type;
     }
 
-    public String getQuestion() {
-        return question;
-    }
-
-    public String getCategorie() {
+    public CategorieQuestion getCategorie() {
         return categorie;
     }
-    // TODO: boolean getCorrectAnswer() pour vérifier si la réponse de l'utilisateur est correcte (par défaut false)
+
+    // Méthode à redéfinir pour retourner les propositions (ou null si QCM non applicable)
+    public abstract String[] getPropositions();
+
+    public abstract boolean estBonneReponse(String reponse);
+
+    public abstract int getPoints();
+
+    public abstract void afficher();
+
+    // Ajout méthode abstraite pour récupérer la réponse correcte sous forme texte
+    public abstract String getReponseCorrecte();
 }
